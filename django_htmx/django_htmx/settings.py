@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'books',
+    'rosetta',
 ]
 
 MIDDLEWARE = [
@@ -108,9 +109,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en'
 
+from django.utils.translation import gettext_lazy as _
+
 LANGUAGES = [
-    ('en', 'English'),
-    ('ru', 'Russian'),
+    ('en', _('English')),
+    ('ru', _('Russian')),
 ]
 
 LOCALE_PATHS = [

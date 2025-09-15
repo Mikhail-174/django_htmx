@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-15 12:26+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\django_htmx\settings.py:115
+msgid "English"
+msgstr ""
+
+#: .\django_htmx\settings.py:116
+msgid "Russian"
+msgstr ""
+
+#: .\templates\base.html:7
+msgid "Books"
+msgstr ""
+
+#: .\templates\base.html:24
+msgid "id"
+msgstr ""
+
+#: .\templates\base.html:24
+msgid "title"
+msgstr ""
+
+#: .\templates\base.html:25
+msgid "author"
+msgstr ""
+
+#: .\templates\base.html:25
+msgid "price"
+msgstr ""
+
+#: .\templates\base.html:26
+msgid "read"
+msgstr ""
+
+#: .\templates\base.html:26
+msgid "ascend"
+msgstr ""
+
+#: .\templates\base.html:27
+msgid "descend"
+msgstr ""
+
+#: .\templates\base.html:35
+msgid "No."
+msgstr ""
+
+#: .\templates\base.html:40 .\templates\base.html:46
+msgid "id-descend"
+msgstr ""
+
+#: .\templates\base.html:54
+msgid "Title"
+msgstr ""
+
+#: .\templates\base.html:59
+msgid "title-descend"
+msgstr ""
+
+#: .\templates\base.html:65
+msgid "title-ascend"
+msgstr ""
+
+#: .\templates\base.html:73
+msgid "Author"
+msgstr ""
+
+#: .\templates\base.html:78
+msgid "author-descend"
+msgstr ""
+
+#: .\templates\base.html:84
+msgid "author-ascend"
+msgstr ""
+
+#: .\templates\base.html:92
+msgid "Price ($)"
+msgstr ""
+
+#: .\templates\base.html:97
+msgid "price-descend"
+msgstr ""
+
+#: .\templates\base.html:103
+msgid "price-ascend"
+msgstr ""
+
+#: .\templates\base.html:111
+msgid "Status"
+msgstr ""
+
+#: .\templates\base.html:116
+msgid "read-descend"
+msgstr ""
+
+#: .\templates\base.html:122
+msgid "read-ascend"
+msgstr ""
+
+#: .\templates\base.html:130
+msgid "Actions"
+msgstr ""
+
+#: .\templates\base.html:162
+msgid "create_book"
+msgstr ""
+
+#: .\templates\base.html:164
+msgid "update_book_details"
+msgstr ""
+
+#: .\templates\base.html:170
+msgid "book_detail"
+msgstr ""
+
+#: .\templates\base.html:172
+msgid "book_list_sort"
+msgstr ""
+
+#: .\templates\partial_book_detail.html:30
+#: .\templates\partial_book_update_form.html:27
+msgid "Read"
+msgstr ""
+
+#: .\templates\partial_book_detail.html:30
+#: .\templates\partial_book_update_form.html:27
+msgid "Unread"
+msgstr ""
+
+#: .\templates\partial_book_detail.html:41
+msgid "Edit"
+msgstr ""
+
+#: .\templates\partial_book_detail.html:49
+msgid "Are you sure you wish to delete this book?"
+msgstr ""
+
+#: .\templates\partial_book_detail.html:50
+msgid "Delete"
+msgstr ""
+
+#: .\templates\partial_book_update_form.html:40
+msgid "Save"
+msgstr ""
+
+#: .\templates\partial_book_update_form.html:47
+msgid "Cancel"
+msgstr ""
+
+#: .\templates\partial_create_book_form.html:23
+msgid "Add book"
+msgstr ""

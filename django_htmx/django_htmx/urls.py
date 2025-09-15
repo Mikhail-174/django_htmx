@@ -16,8 +16,31 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.i18n import i18n_patterns
 
-urlpatterns = [
+
+
+urlpatterns = i18n_patterns(
     path('admin/', admin.site.urls),
     path('', include('books.urls')),
-]
+    path('rosetta/', include('rosetta.urls')),
+)
+
+
+# Непереводимые стандартные шаблоны URL-адресов и шаблоны можно комбинировать в рамках i18n_patterns, чтобы некоторые шаблоны содержали языковой префикс, а другие – нет.
+#
+# Для нашего проекта это могло быть так:
+#
+# from django.contrib import admin
+# from django.urls import path, include
+# from django.conf.urls.i18n import i18n_patterns
+#
+#
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('rosetta/', include('rosetta.urls')),
+# ]
+#
+# urlpatterns += i18n_patterns(
+#     path('', include('books.urls')),
+# )

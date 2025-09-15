@@ -1,19 +1,20 @@
 from django.forms import ModelForm, CharField, TextInput
 from .models import Book
+from django.utils.translation import gettext_lazy as _
 
 class BookCreateForm(ModelForm):
     title = CharField(required=False,
                       widget=TextInput(attrs={
                                 "class": "clrtxt",
-                                "placeholder": "Title"}))
+                                "placeholder": _("Title")}))
     author = CharField(required=False,
                       widget=TextInput(attrs={
                           "class": "clrtxt",
-                          "placeholder": "Author"}))
+                          "placeholder": _("Author")}))
     price = CharField(required=False,
                       widget=TextInput(attrs={
                           "class": "clrtxt",
-                          "placeholder": "Price"}))
+                          "placeholder": _("Price")}))
     class Meta:
         model = Book
         fields = ["title", "author", "price"]
