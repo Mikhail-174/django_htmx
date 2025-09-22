@@ -1,0 +1,4 @@
+djvenv
+.idea
+*/Dockerfile*
+.dockerignore
